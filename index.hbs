@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JntuhClassUpdates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <div class="header__content">
+                <div class="logo">
+                    <a href="/">
+                        <img src="public/img/logo.png" alt="university logo">
+                        </a>
+                </div>
+                <div class="ham__icon">
+                    <img src="/public/img/hamurger icon.png" alt="image of hamburger icon" id="hamburger"
+                        onclick="show__content()">
+                </div>
+            </div>
+            <nav>
+                <div class="wrapper">
+                    <ul id="navul" class="navul">
+                        <div class="center">
+
+                            <div class="aboutus">
+                                
+                                <a href="/about" >
+                                    <li>About Us</li>
+                            </a>
+                        </div>
+                        <li>Features
+                            <i class="fas fa-chevron-down"></i>
+                            <ul class="drop-down">
+                                <a href="/classupdates">
+                                    <li>Class Updates</li>
+                                </a>
+                                <a href="/notes">
+                                    <li class="nav__items">Jntuh Notes</li>
+                                </a>
+                                <a href="careercoachtool">
+                                    <li class="nav__items">Career Coach tool</li>
+                                </a>
+                                <!-- <a href="/FrontEnd/virtualtour.html"><li class="nav__items">3D Virtual tour</li></a> -->
+                                <!-- <a href="/FrontEnd/attendance.html"><li class="nav__items">Attendance</li></a> -->
+                                <a href="/poll">
+                                    <li class="nav__items">Conduct a poll</li>
+                                </a>
+                                <!-- <a href="/FrontEnd/universitystore.html"><li class="nav__items">University Store</li></a> -->
+                            </ul>
+                        </li>
+                        <a href="/blogs">
+                        <li>Blogs</li>
+                        </a>
+                    </div>
+                        <div class="header__right">
+                            <a href="/register">
+                                <li>Register</li>
+                            </a>
+                            <a href="/login">
+                                <li>Login</li>
+                            </a>
+                        </div>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section class="first">
+            <div class="department">
+                <div class="hero__image">
+
+                    <img src="/public/img/Connected world.JPG" alt="image of students connected by a digital platform">
+                </div>
+                
+                <div class="hero__department">
+                    <h3 class="hero__content">JntuhClassUpdates</h3>
+                    <p>A digital platform to Connect both Lecturers and Students Constructively.</p>
+                    <a href="/classupdates" type="button" class="button1">Get Started &#8599;</a>
+                </div>
+            </div>
+        </section>
+        <section class="second">
+            <div class="blog">
+                <h3>BLOG</h3>
+                <div class="blog__contents">
+
+                    <div class="blog-1">
+                        
+                        <img src="/public/img/My project.jpg" alt="Sketch of university">
+                        <a href="/motivation" class="blog__data">Motivation</a>
+                    </div>
+                    <div class="blog-2">
+                        <img src="/public/img/stop (1).jpg" alt="sketch of stop sign">
+                        <a href="/technology" class="blog__data">Technology</a>
+                    </div>
+                    <div class="blog-3">
+                        <img src="/public/img/developer.jpg" alt="image of a girl with her laptop">
+                        <a href="/Knowaboutthedeveloper" class="blog__data">Know about the developer</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third">
+            <h2>Counter</h2>
+
+            <div class="animated__counter">
+                <div class="days__from__start">
+                    <img src="/public/img/days.png" alt="Picture of days">
+                    <div class="days">
+                    </div>
+                    <span class="counter__numbers">0</span>
+                    <div>
+
+                        <span class="counter__content">Days from Start</span>
+                    </div>
+
+                </div>
+                <div class="students__count">
+                    <img src="/public/img/student.png" alt="image of a student">
+                    <div class="students">
+                        <span class="counter__numbers">0</span>
+                        <div>
+
+                            <span class="counter__content">Students</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="professors__count">
+                    <img src="/public/img/professor.png" alt="image of a professor">
+                    <div class="professors">
+                    </div>
+                    <span class="counter__numbers">0</span>
+                    <div>
+                        <span class="counter__content">Professors</span>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="fourth">
+
+            <div class="contact__form">
+                <h1>Get in touch</h1>
+                <form action="">
+                    <input type="text" name="name" class="enter__text" placeholder="Name">
+                    <br>
+                    <input type="text" class="enter__text" placeholder="subject">
+                    <br>
+                    <input type="text" class="enter__text" name='email' placeholder="Email">
+                    <br>
+                    <textarea name="message" class="enter__text" placeholder="Message" rows="5" cols="30"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" class="button2">
+                </form>
+            </div>
+        </section>
+        <section class="fifth">
+            <h2>FAQ</h2>
+            <details class="one">
+                <summary>Is JntuhClassUpdates.edu is an official university website?</summary>
+                <p>No. JntuhClassUpdates.edu is meant exclusively to connect both the lecturers and students
+                    constructively.</p>
+            </details>
+            <details class="one">
+                <summary>How can I immediately contact the developer?</summary>
+                <p>You can reach out to the developer at: csengineer.mona@gmail.com.</p>
+            </details>
+            <details class="one">
+                <summary>Who framed the contents of the blog?</summary>
+                <p>The developer is also a writer by passion has addressed it.
+                </p>
+            </details>
+            <details class="one">
+                <summary>Is the website secure?</summary>
+                <p>The latest technology has been used to maintain the security of the website. No compromise has been
+                    done in securing the website and its data.</p>
+            </details>
+        </section>
+        <section class="sixth">
+
+            <footer class="footer__content">
+                <div class="foot">
+                    <h5>Copyright 2022-2023&copy;<br>Designed by Allure team</h5>
+                </div>
+            </footer>
+        </section>
+    </section>
+    {{!-- <script src="/public/script/main.js">
+    </script> --}}
+</body>
+</html>
